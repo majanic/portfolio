@@ -1,0 +1,554 @@
+/*Viser til flere sider*/
+a {
+text-decoration: none;
+}
+
+body {
+    color: white;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-block {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.icon-link {
+    color: #3A4D39;
+    align-items: center;
+    margin: 20px;
+}
+
+.icon-link:hover {
+    color: white;
+}
+
+.footer-link {
+    color: #3A4D39;
+    align-items: center;
+    margin: 20px;
+}
+
+.footer-link:hover {
+    color: #739072;
+    background-color: none;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 0;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.container-fluid {
+    background-color: #739072;
+    padding: 5%;
+}
+
+.big-heading-home{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+/*Navbar*/
+#navbar {
+    background-color: #739072;
+    top: 0;
+    z-index: 100;
+    position: sticky;
+    text-align: left;
+    padding: 1.2%;
+}
+
+.navbar-brand {
+    color: white;
+    margin-left: 20px;
+    font-weight: 600;
+    font-weight: bold;
+    font-size: large;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-item {
+    color: #3A4D39;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    font-weight: 700;
+
+}
+
+.nav-link {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    position: relative;
+
+}
+
+.nav-link:hover {
+    /*background-color: #4F709C;*/
+    color: #3A4D39;
+}
+
+.navbar-toggler-icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+}
+
+/*Hjem*/
+.img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid #3A4D39;
+}
+
+.img-tekst {
+    text-align: center;
+    padding-top: 3%;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Carousel*/
+.carousel-control-prev {
+    margin-left: -100px;
+}
+
+.carousel-control-next {
+    margin-right: -100px;
+}
+
+
+/*Footer*/
+#footer {
+    background-color: white;
+    text-align: center;
+    padding: 6%;
+    line-height: 1.5;
+}
+
+.copyright {
+    color: #739072;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+.big-heading {
+    line-height: 1.5;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+/*Jobb*/
+.horizontal-jobb {
+    width: 80%;
+    text-align: center;
+    margin-left: 11%;
+    margin-right: 8%;
+    opacity: 2;
+    color: white;
+    border: 1px solid white;
+}
+
+#jobb .text-box {
+    text-align: center;
+    font-family: "Poppins" sans-serif;
+}
+
+/*Utdanning*/
+.big-heading-skole {
+    line-height: 1.5;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center;
+    /*font-size: 1.5rem;*/
+    font-family: "Poppins" sans-serif;
+}
+
+.text-box {
+    width: 100%;
+    text-align: center;
+    padding: 2% 8%;
+    padding-top: 0%;
+    line-height: 1.6;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+
+.fa-school-flag {
+    margin-bottom: 15px;
+}
+
+.horizontal {
+    color: white;
+    opacity: 2;
+}
+
+.horizontal-skole {
+    color: #3A4D39;
+    opacity: 2;
+}
+
+.p-skole {
+    font-size: 1.2rem;
+    
+}
+
+/*Pause*/
+#pause{
+    background-color: white;
+}
+
+.container{
+    padding:6%;
+    text-align: center;
+}
+
+.block-galleri{
+    /*background-color:#8EACCD;
+    display: block;
+    border: none;
+    padding:20px;
+    cursor: pointer;
+    border-radius: 1%;
+    color: #fff;
+    font-size: 1.5rem;*/
+    width:100%;
+    margin-left: 0;
+    cursor: pointer;
+    border-radius: 1%;
+    color: #739072;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+}
+.block-galleri:hover{
+    color: #3A4D39;
+    text-decoration: none;
+  }
+
+.container-galleri{
+    padding: 3.5%;
+    text-align: center;
+}
+
+/*Språk*/
+.container-fluid-språk {
+    background-color: white;
+    padding: 4%;
+    color: #739072;
+}
+
+.språk {
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.big-heading-språk {
+    margin-top: 10px;
+    text-align: center;
+    color: #739072;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.progress-bar {
+    background-color: #3A4D39;
+}
+
+.språk-p {
+    margin-bottom: 4px;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.text-box-språk {
+    width: 80%;
+    text-align: center;
+    padding: 2% 6%;
+    line-height: 1.6;
+    font-size: 1rem;
+    margin-top: 75px;
+    margin-left: 70px;
+}
+
+
+/*Prosjekter*/
+
+#hoved{
+    font-family: 'Poppins' 'sans serif';
+}
+
+.container-fluid-p{
+    background-color: white;
+    color:#739072;
+    padding:8%;
+    align-items:center;
+    margin:20px;
+}
+
+/*Spill*/
+#spill {
+    padding: 4%;
+    background-color: #739072;
+    color: white;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.box {
+    padding: 2%;
+}
+
+.navn-spill {
+    padding-top: 3%;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.p-spill {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.big-heading-spill {
+    line-height: 1.5;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.icon-link-spill {
+    color: #3A4D39;
+    align-items: center;
+    text-decoration: none;
+}
+
+.icon-link-spill:hover {
+    color: white;
+}
+
+/*Galleri*/
+#galleri {
+    background-color: white;
+}
+
+
+.bilde-galleri {
+    height: 250px;
+    width: 350px;
+    border-radius: 0%;
+    border: 5px solid #3A4D39;
+    margin-top: 10px;
+    margin: 20px;
+}
+
+
+/*Hobby*/
+.container-fluid-hobby {
+    background-color: white;
+    padding: 6%;
+    text-align: center;
+    color: #739072;
+}
+
+.bilde {
+    height: 280px;
+    width: 230px;
+    text-align: center;
+    border: 5px solid #3A4D39;
+    margin-top: 10px;
+}
+
+
+
+.big-heading-hobby {
+    color: #739072;
+    line-height: 1.5;
+    text-align: center;
+    font-family: "Poppins" sans-serif;
+    margin-bottom: 20px;
+    margin-top: 2px;
+}
+
+.text-hobby {
+    margin-top: 15px;
+}
+
+/*Media*/
+@media (max-width: 574px) {
+    .text-kontakt {
+        text-align: left;
+        padding: 20% 0% 0% 5%;
+        align-items: center;
+        vertical-align: middle;
+        font-size: 10px;
+    }
+
+    .bilde-IM {
+        text-align: center;
+        margin-right: 60px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    .bilde-galleri {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .box {
+        margin-bottom: 5px;
+    }
+
+    .text-box-språk {
+        margin-left: 50px;
+        width: 80%;
+    }
+
+    .big-heading-hobby {
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1028px) {
+    .form-kontakt {
+        padding: 0% 0% 0% 0%;
+    }
+
+    .nav-item {
+        font-size: 1rem;
+    }
+
+
+    .vertical {
+        display: none;
+    }
+
+    .bilde {
+        margin-top: 20px;
+    }
+
+    .row {
+        text-align: center;
+    }
+
+    .text-kontakt {
+        text-align: left;
+        padding: 10% 0% 0% 0%;
+        align-items: center;
+        vertical-align: middle;
+        font-size: 15px;
+    }
+
+    #jobb .carousel-control-prev {
+        margin-left: -30px;
+    }
+
+    #jobb .carousel-control-next {
+        margin-right: -30px;
+    }
+
+
+    .navbar {
+        padding: 3%;
+    }
+
+    .navbar-brand {
+        font-weight: bold;
+        font-size: 1.5rem;
+
+    }
+
+    .container-fluid-galleri {
+        padding: 5%;
+        align-items: center;
+    }
+
+    .bilde-galleri {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+
+    }
+
+    .text-box-språk {
+        margin-top: 5px;
+
+    }
+}
+
+@media (min-width: 1334px) {
+    .form-kontakt {
+        padding: 0% 10% 0% 0%;
+    }
+
+    .img {
+        margin-left: 55px;
+    }
+
+    #jobb .text-box {
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+
+    .bilde-IM {
+        margin-left: 20px;
+    }
+}
+
+@media (min-width:1028px) {
+    .bilde-galleri {
+        margin-right: 5px;
+    }
+}
+
+@media(max-width:1350px) {
+    .nav-link:hover {
+        background: none;
+        color: #3A4D39;
+    }
+}
+
+/* COLOR STRONY, ZIELONY ORYGINAL #A4BE7B */
